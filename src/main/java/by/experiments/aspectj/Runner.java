@@ -14,5 +14,6 @@ public class Runner
         final TestAspectJServiceImpl service = new TestAspectJServiceImpl();
         service.simpleTestMethod();
         service.simpleAnnotatedTestMethod();
+        service.returnId();
     }
 }

@@ -19,4 +19,9 @@ public class TestAspectJServiceImpl
     {
         System.out.println("Inside simpleAnnotatedTestMethod");
     }
+
+    public Long returnId()
+    {
+        return 123L;
+    }
 }

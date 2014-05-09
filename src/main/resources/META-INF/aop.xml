@@ -1,6 +1,7 @@
 <aspectj>
   <aspects>
     <aspect name="by.experiments.aspectj.aspect.TimerAspect"/>
+    <aspect name="by.experiments.aspectj.aspect.SimpleLoggerAspect"/>
   </aspects>
   <weaver options="-verbose">
     <include within="*"/>
