@@ -15,5 +15,6 @@ public class Runner
         service.simpleTestMethod();
         service.simpleAnnotatedTestMethod();
         service.returnId();
+        service.saveData();
     }
 }

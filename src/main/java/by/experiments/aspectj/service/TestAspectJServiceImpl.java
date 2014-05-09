@@ -9,6 +9,8 @@ import by.experiments.aspectj.annotation.Measured;
  */
 public class TestAspectJServiceImpl
 {
+    private ProblematicServiceImpl problematicService = new ProblematicServiceImpl();
+
     public void simpleTestMethod()
     {
         System.out.println("Inside simpleTestMethod");
@@ -23,5 +25,10 @@ public class TestAspectJServiceImpl
     public Long returnId()
     {
         return 123L;
+    }
+
+    public void saveData()
+    {
+        problematicService.saveData();
     }
 }
